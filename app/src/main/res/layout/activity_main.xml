@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:src="@drawable/add_photo"
+            android:tint="#ffffff"
+            app:fabSize="mini"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/photos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_lable"
+            android:text="Photos"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:src="@drawable/music"
+            android:tint="#fff"
+            app:fabSize="mini"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/music"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_lable"
+            android:text="Music"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:src="@drawable/done"
+            android:tint="#fff"
+            app:fabSize="mini"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_lable"
+            android:text="Done"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:padding="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/add"
+            android:tint="#fff"
+            app:fabSize="normal"
+            tools:ignore="VectorDrawableCompat" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
